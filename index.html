@@ -268,8 +268,8 @@
 <script>
   var slider;
   let origImages = [
-    { "src": "static/vmix_files/teaser/0.png", "label": "SDXL", },
-    { "src": "static/vmix_files/teaser/vmix_0.png", "label": "VMix", }
+    { "src": "static/vmix_files/teaser/0.jpg", "label": "SDXL", },
+    { "src": "static/vmix_files/teaser/vmix_0.jpg", "label": "VMix", }
   ];
   let origOptions = {
     "makeResponsive": true,
@@ -293,8 +293,8 @@
       label: "VMix",
     };
 
-    inputImage.src = "static/vmix_files/teaser/".concat(name, ".png")
-    outputImage.src = "static/vmix_files/teaser/".concat("vmix_", name, ".png")
+    inputImage.src = "static/vmix_files/teaser/".concat(name, ".jpg")
+    outputImage.src = "static/vmix_files/teaser/".concat("vmix_", name, ".jpg")
 
     let images = [inputImage, outputImage];
     let options = slider.options;
